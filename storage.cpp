@@ -145,7 +145,7 @@ public:
     Node* currentJ = head;
     Node* prevJ = NULL;
     int counterJ = 0;
-    while(counterJ != J && currentI != NULL)
+    while(counterJ != J && currentJ != NULL)
     {   
         prevJ = currentJ;
         currentJ = currentJ->next;
